@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeViewClicked|typeViewLongClicked|typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="10"
+    android:packageNames="jp.naver.line.android, jcchen.floatview"
+    android:description="@string/accessibility_des"
+    android:settingsActivity="jcchen.linecopydemo.MainActivity"/>

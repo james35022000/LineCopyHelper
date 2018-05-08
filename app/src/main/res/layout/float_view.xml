@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jcchen.floatview.view.FloatView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:gravity="start">
+
+    <RelativeLayout
+        android:id="@+id/exit_relativeLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="false">
+
+        <jcchen.floatview.view.RoundedImageView
+            android:id="@+id/roundedImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:src="@android:color/background_dark" />
+
+        <jcchen.floatview.view.RoundedImageView
+            android:id="@+id/exit_RImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_exit_no" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/icon_relativeLayout"
+        android:layout_width="50dp"
+        android:layout_height="50dp">
+
+        <jcchen.floatview.view.RoundedImageView
+            android:id="@+id/background_RImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:src="@android:color/holo_green_dark" />
+
+        <jcchen.floatview.view.RoundedImageView
+            android:id="@+id/icon_RImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_start" />
+    </RelativeLayout>
+
+</jcchen.floatview.view.FloatView>
