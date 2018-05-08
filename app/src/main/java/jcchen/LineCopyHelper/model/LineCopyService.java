@@ -1,4 +1,4 @@
-package jcchen.floatview.model;
+package jcchen.LineCopyHelper.model;
 
 import android.accessibilityservice.AccessibilityService;
 import android.app.ActivityManager;
@@ -12,7 +12,7 @@ import android.os.IBinder;
 import android.util.Log;
 import android.view.accessibility.AccessibilityEvent;
 
-import jcchen.floatview.present.SwitchService;
+import jcchen.LineCopyHelper.present.SwitchService;
 
 /**
  * Created by JCChen on 2018/5/5.

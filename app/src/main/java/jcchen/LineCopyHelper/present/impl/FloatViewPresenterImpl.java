@@ -1,4 +1,4 @@
-package jcchen.floatview.present.impl;
+package jcchen.LineCopyHelper.present.impl;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,12 +18,12 @@ import android.view.animation.Animation;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import jcchen.floatview.R;
-import jcchen.floatview.present.FloatViewListener;
-import jcchen.floatview.present.FloatViewPresenter;
-import jcchen.floatview.present.SwitchService;
-import jcchen.floatview.view.FloatView;
-import jcchen.floatview.view.RoundedImageView;
+import jcchen.LineCopyHelper.R;
+import jcchen.LineCopyHelper.present.FloatViewListener;
+import jcchen.LineCopyHelper.present.FloatViewPresenter;
+import jcchen.LineCopyHelper.present.SwitchService;
+import jcchen.LineCopyHelper.view.FloatView;
+import jcchen.LineCopyHelper.view.RoundedImageView;
 
 /**
  * Created by JCChen on 2018/5/5.

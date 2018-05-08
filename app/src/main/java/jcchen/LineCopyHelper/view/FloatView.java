@@ -1,4 +1,4 @@
-package jcchen.floatview.view;
+package jcchen.LineCopyHelper.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -18,7 +18,7 @@ import android.widget.RelativeLayout;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import jcchen.floatview.R;
+import jcchen.LineCopyHelper.R;
 
 /**
  * Created by JCChen on 2018/5/5.

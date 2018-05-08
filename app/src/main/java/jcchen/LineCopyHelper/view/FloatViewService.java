@@ -1,4 +1,4 @@
-package jcchen.floatview.view;
+package jcchen.LineCopyHelper.view;
 
 import android.app.Service;
 import android.content.Context;
@@ -12,9 +12,9 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
 
-import jcchen.floatview.R;
-import jcchen.floatview.present.impl.FloatViewListenerImpl;
-import jcchen.floatview.present.impl.FloatViewPresenterImpl;
+import jcchen.LineCopyHelper.R;
+import jcchen.LineCopyHelper.present.impl.FloatViewListenerImpl;
+import jcchen.LineCopyHelper.present.impl.FloatViewPresenterImpl;
 
 /**
  * Created by JCChen on 2018/5/5.

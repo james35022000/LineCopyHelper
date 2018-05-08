@@ -1,4 +1,4 @@
-package jcchen.floatview;
+package jcchen.LineCopyHelper;
 
 import org.junit.Test;
 

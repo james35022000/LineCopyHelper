@@ -1,4 +1,4 @@
-package jcchen.floatview.view;
+package jcchen.LineCopyHelper.view;
 
 import android.content.Context;
 import android.graphics.Canvas;

@@ -1,13 +1,13 @@
-package jcchen.floatview.present.impl;
+package jcchen.LineCopyHelper.present.impl;
 
 import android.content.Context;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
 
-import jcchen.floatview.R;
-import jcchen.floatview.present.FloatViewListener;
-import jcchen.floatview.view.FloatView;
-import jcchen.floatview.view.RoundedImageView;
+import jcchen.LineCopyHelper.R;
+import jcchen.LineCopyHelper.present.FloatViewListener;
+import jcchen.LineCopyHelper.view.FloatView;
+import jcchen.LineCopyHelper.view.RoundedImageView;
 
 /**
  * Created by JCChen on 2018/5/6.

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FloatView</string>
+    <string name="app_name">LineCopyHelper</string>
 
     <string name="accessibility_des">開啟此服務即可輕觸複製Line訊息。</string>
     <string name="dialog_exit_title">關閉</string>

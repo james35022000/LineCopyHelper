@@ -1,4 +1,4 @@
-package jcchen.floatview.view;
+package jcchen.LineCopyHelper.view;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 
-import jcchen.floatview.present.SwitchService;
+import jcchen.LineCopyHelper.present.SwitchService;
 
 public class MainActivity extends Activity {
     private static final String TAG = MainActivity.class.getName();
@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
                     mStringColonSplitter.setString(settingValue);
                     while (mStringColonSplitter.hasNext()) {
                         String accessibilityService = mStringColonSplitter.next();
-                        if (accessibilityService.equalsIgnoreCase("jcchen.floatview/jcchen.floatview.model.LineCopyService")) {
+                        if (accessibilityService.equalsIgnoreCase("jcchen.LineCopyHelper/jcchen.LineCopyHelper.model.LineCopyService")) {
                             Log.d(TAG, "We've found the correct setting - accessibility is switched on!");
                             return true;
                         }

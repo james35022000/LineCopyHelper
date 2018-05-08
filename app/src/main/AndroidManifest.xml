@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jcchen.floatview">
+    package="jcchen.LineCopyHelper">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.VIBRATE"/>
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoDisplay">
-        <activity android:name=".view.MainActivity">
+        <activity android:name="jcchen.LineCopyHelper.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,12 +20,12 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".view.FloatViewService"
+        <service android:name="jcchen.LineCopyHelper.view.FloatViewService"
             android:process="com.jcchen"/>
-        <service android:name=".present.SwitchService"
+        <service android:name="jcchen.LineCopyHelper.present.SwitchService"
             android:process="com.jcchen"/>
         <service
-            android:name=".model.LineCopyService"
+            android:name="jcchen.LineCopyHelper.model.LineCopyService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:process="com.jcchen">
             <intent-filter>
